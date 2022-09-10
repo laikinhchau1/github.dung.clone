@@ -7,7 +7,7 @@
 }
 html
 {
-    font-size: 62.5%;
+    font-size: 100%;
     font-family: 'Roboto', sans-serif;
 }
 /* general */
@@ -19,6 +19,9 @@ html
 .d-flex
 {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .justify-content-end
 {
@@ -128,4 +131,26 @@ html
     font-weight: 500;
     text-transform: uppercase;
     color: #012183;
+}
+.banner img{
+    width: 100%;
+}
+
+.col{
+    padding: 0 30px 30px;
+    margin-bottom: 0;
+}
+.col-8{
+    max-width: 66.6666666667%;
+    flex-basis: 66.6666666667%;
+}
+.left_page{
+    padding: 24px 0;
+}
+.caption{
+    background: rgba(0,0,0,.05);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
